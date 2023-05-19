@@ -25,11 +25,15 @@ nav {
 
 nav li {
   position: absolute;
+  width: 13.2vh;
+  height: 13.2vh;
   background-color: yellow;
 }
 
 #hiyokoO {
   position: relative;
+  width: 12vh;
+  height: 12vh;
   background: orange;
 }
 
@@ -38,8 +42,6 @@ nav li,
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 12vh;
-  height: 12vh;
   border: 1px solid;
   border-radius: 50%;
 }
@@ -69,7 +71,11 @@ nav li:nth-child(5) {
 }
 
 @media screen and (orientation: landscape) {
-  nav li,
+  nav li {
+    width: 11vw;
+    height: 11vw;
+  }
+
   #hiyokoO {
     width: 10vw;
     height: 10vw;
